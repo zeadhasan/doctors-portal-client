@@ -1,11 +1,10 @@
 import React from 'react';
 import appointment from '../../assets/images/appointment.png';
-import PrimaryButton from '../Shared/PrimaryButton';
 
 
 const ContactForm = () => {
     return (
-        <section style={{ background: `url(${appointment})` }} className='flex justify-center items-center mb-10'>
+        <section style={{ background: `url(${appointment})` }} className='flex justify-center items-center'>
             <div className='block'>
                 <div className='text-center'>
                     <h4 className='text-2xl text-primary font-bold mt-10'>Contact Us</h4>
