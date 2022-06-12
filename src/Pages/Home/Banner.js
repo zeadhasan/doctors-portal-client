@@ -7,12 +7,12 @@ import bg from '../../assets/images/bg.png';
 const Banner = () => {
     return (
         <section style={{ background: `url(${bg})` }}
-            className='flex justify-center items-center mt-20 my-14 hero min-h-screen px-12'>
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={chair} alt="Doctors Chair" class="max-w-sm rounded-lg shadow-2xl" />
+            className='flex justify-center items-center mt-5 my-14 hero min-h-screen px-12'>
+            <div className="hero-content flex-col lg:flex-row-reverse">
+                <img src={chair} alt="Doctors Chair" className="max-w-sm rounded-lg shadow-2xl" />
                 <div>
-                    <h1 class="text-5xl font-bold">Your New Smile Starts Here</h1>
-                    <p class="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                    <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
+                    <p className="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
                     <PrimaryButton>Get Started</PrimaryButton>
                 </div>
             </div>

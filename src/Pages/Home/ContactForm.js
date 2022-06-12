@@ -11,16 +11,16 @@ const ContactForm = () => {
                     <h3 className='text-3xl text-secondary font-bold mb-5'>Stay connected with us</h3>
                 </div>
                 <div>
-                    <label class="block">
-                        <input type="email" name="email" class="mb-5 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Your Email" />
+                    <label className="block">
+                        <input type="email" name="email" className="mb-5 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Your Email" />
                     </label>
-                    <label class="block">
-                        <input type="text" name="subject" class="mb-5 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Subject" />
+                    <label className="block">
+                        <input type="text" name="subject" className="mb-5 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Subject" />
                     </label>
-                    <label class="block">
-                        <input type="text" name="subject" class="mb-5 mt-5 px-3 py-5 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Your Massage" />
+                    <label className="block">
+                        <input type="text" name="subject" className="mb-5 mt-5 px-3 py-5 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Your Massage" />
                     </label>
-                    <button class="btn btn-accent mb-10 text-center">Submit</button>
+                    <button className="btn btn-accent mb-10 text-center">Submit</button>
                 </div>
             </div>
         </section>
