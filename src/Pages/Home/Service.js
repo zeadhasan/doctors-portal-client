@@ -8,7 +8,7 @@ import PrimaryButton from '../Shared/PrimaryButton';
 
 const Service = () => {
     return (
-        <>
+        <section>
             <div className='mt-14'>
                 <div className='text-center'>
                     <p className='text-primary text-bold uppercase text-xl	'>OUR SERVICES</p>
@@ -30,7 +30,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 
