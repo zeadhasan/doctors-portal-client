@@ -4,7 +4,7 @@ import footer from '../../assets/images/footer.png';
 
 const Footer = () => {
     return (
-        <footer style={{ background: `url(${footer})`, backgroundSize: 'cover' }} className="p-10">
+        <footer style={{ background: `url(${footer})`, backgroundSize: 'cover' }} className="p-5">
             <div className="footer">
                 <div>
                     <span className="footer-title">Services</span>
@@ -24,7 +24,7 @@ const Footer = () => {
                     <Link to="" className="link link-hover">New York - 101010 Hudson</Link>
                 </div>
             </div>
-            <div className='mt-10 text-center mb-5'>
+            <div className='mt-10 text-center'>
                 <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
             </div>
         </footer>

@@ -1,20 +1,18 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {},
   },
   themes: [
     {
       doctortheme: {
-        primary: "#0FCFEC",
-        secondary: "#19D3AE",
+        primary: "red",
+        secondary: "green",
         accent: "#3A4256",
         neutral: "#3d4451",
         "base-100": "#ffffff",
       },
     },
-    "dark",
-    "cupcake",
   ],
   plugins: [require("daisyui")],
 }
