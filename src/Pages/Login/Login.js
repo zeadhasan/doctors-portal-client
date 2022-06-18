@@ -32,10 +32,10 @@ const Login = () => {
 
 
     return (
-        <section className='px-12 h-screen flex justify-center items-center -mt-20'>
+        <section className='px-12 h-screen flex justify-center items-center'>
             <div className="card w-96 bg-base-100 shadow-xl ">
                 <div className="card-body">
-                    <h2 className="text-3xl font-bold text-center text-accent">Login</h2>
+                    <h2 className="text-3xl font-bold text-center text-accent">Login Here</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
 
                         <div className="form-control w-full max-w-xs">
@@ -82,7 +82,7 @@ const Login = () => {
                         <input className='btn w-full max-w-xs text-white' type="submit" value="Log-in" />
                     </form>
 
-                    <p><small>New To Doctors Portal <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
+                    <p><small>New To Doctors Portal? <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
 
                     <div className="divider">OR</div>
 
