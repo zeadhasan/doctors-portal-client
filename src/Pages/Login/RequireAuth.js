@@ -16,7 +16,6 @@ const RequireAuth = ({ children }) => {
         return <Loading></Loading>
     }
 
-
     return children;
 };
 
