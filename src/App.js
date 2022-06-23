@@ -15,6 +15,7 @@ import DashboardReview from './Pages/Dashboard/DashboardReview';
 import History from './Pages/Dashboard/History';
 import Users from './Pages/Dashboard/Users';
 import RequireAdmin from './Pages/Login/requierAdmin';
+import AddDoctor from './Pages/Dashboard/AddDoctor';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="dashboard-review" element={<DashboardReview></DashboardReview>}></Route>
           <Route path="history" element={<History></History>}></Route>
           <Route path="users" element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>
+          <Route path="addDoctor" element={<RequireAdmin><AddDoctor></AddDoctor></RequireAdmin>}></Route>
         </Route>
 
         <Route path="login" element={<Login />} />
