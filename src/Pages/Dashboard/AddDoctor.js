@@ -65,7 +65,6 @@ const AddDoctor = () => {
         return <Loading></Loading>
     }
 
-
     return (
         <div>
             <h2 className='text-2xl m-5 uppercase'>Add A New Doctor</h2>
