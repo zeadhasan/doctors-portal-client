@@ -28,7 +28,6 @@ const DeleteConfirmModal = ({ deletingDoctor, refetch, setDeletingDoctor }) => {
             <div className="modal modal-bottom sm:modal-middle">
                 <div className="modal-box">
                     <h3 className="font-bold text-lg ">You Went To Delete <span className='text-red-500'>{name}</span> </h3>
-                    <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
                     <div className="modal-action">
                         <button htmlFor="delete-confirm-modal" onClick={() => handleDelete()} class="btn btn-error">Delete</button>
                         <label htmlFor="delete-confirm-modal" className="btn btn-warning">Cancel</label>
